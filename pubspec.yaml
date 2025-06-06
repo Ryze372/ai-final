@@ -1,0 +1,23 @@
+name: africa_ai_flutter_app
+description: A Flutter app that runs embedded AI logic in Python.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_tts: ^3.6.3
+  speech_to_text: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
